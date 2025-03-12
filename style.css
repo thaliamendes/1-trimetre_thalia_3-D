@@ -1,0 +1,25 @@
+body{ background-color: rgb(2, 199, 199);}
+h1{text-align: center;
+   color: rgb(184, 132, 2);
+   font-size: 250%;
+} 
+h2{color: rgb(173, 125, 3);
+    text-align:center;
+    font-size: 225%;
+}
+img{border-color: black;
+    border-style: double;
+    border-width: 10px;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+h4{color: black;
+    margin-left:5% ;
+    margin-right: 5%;
+    font-size: 145%;
+}
+h5{color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 145%;
+}
