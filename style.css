@@ -1,6 +1,5 @@
-
-}
-body{  background-color: rgb(2, 199, 199);
+body{  
+background-color: rgb(2, 199, 199);
 } 
 
 h1{text-align: center;
@@ -26,5 +25,5 @@ h5{color: black;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 145%;
-    
+
 }
