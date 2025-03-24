@@ -22,14 +22,26 @@
      <li>  Avaliação de Passivo Ambiental. </l> </h5>                   
      <P><a href="https://www.youtube.com/watch?v=bMwEgGaB1ZQ"> SAIBA MAIS...</a></P>   
      <img id="img1" src="biologia.png" alt="um mapa mental sobre as areas da biologia espexificando um pouco de algumas areas da biologia.">
-     <div id=”acessibilidade” class=”menu-acessibilidade”>
-            <button id=”botao-acessibilidade” class=”btn btn-primary fw-bold rotacao-
-            botao” aria-expanded=”false”>acessibilidade</button>
-            <div id=”opcoes-acessibilidade”>
-            <button id=”aumentar-fonte”>A+</button>
-            <button id=”diminuir-fonte”>A-</button>
-            <script src=”script.js”></script>
+     
+<button onclick="changeFontSize('aumentar')">Aumentar</button>
+<button onclick="changeFontSize('reduzir')">Reduzir</button><script>
+function changeFontSize(action){
+const elements = ['h1', 'p'];
+elements.map(element=>{
+
+const selector = document.querySelector(element);
+let value = getComputedStyle(selector).getPropertyValue('font-size');
+value = value.replace('px', '');
+value = action === 'aumentar' ? parseInt(value) + 1 : parseInt(value) - 1;
+selector.style.fontSize = `${value}px`;
+})
+}
+</script>
+    <script src=”script.js”></script>
 </div>
+<h1>modo drak e modo light</h1>
+<div class="trilho">
+    <div class="indicador"></div>
 </div>
 </section>
 

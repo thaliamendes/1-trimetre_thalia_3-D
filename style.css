@@ -1,4 +1,12 @@
-body{ background-color: rgb(2, 199, 199);}
+body{
+    background-color: rgb(2, 199, 199);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
 h1{text-align: center;
    color: rgb(184, 132, 2);
    font-size: 250%;
@@ -22,4 +30,12 @@ h5{color: black;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 145%;
+}
+h1{
+    color: #fff;
+}
+.trilho{
+    width: 250px;
+    height: 150px;
+    background-color: #4d4d4d;
 }
