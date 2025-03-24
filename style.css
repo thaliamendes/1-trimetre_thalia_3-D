@@ -1,11 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+}
 body{
   background-color: rgb(2, 199, 199);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: normal ;
+  flex-direction: column;
+  background-color: #212121;
 } 
 
 h1{text-align: center;
    color: rgb(184, 132, 2);
    font-size: 250%;
 } 
+h1{
+    color: #fff;
+}
 h2{color: rgb(173, 125, 3);
     text-align:center;
     font-size: 225%;
@@ -25,4 +40,9 @@ h5{color: black;
     margin-left: 5%;
     margin-right: 5%;
    font-size: 145%;
+}
+.trilho{
+    width: 250px;
+    height: 50px;
+    background-color: #4d4d4d;
 }

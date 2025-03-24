@@ -26,7 +26,7 @@
 <button onclick="changeFontSize('aumentar')">Aumentar</button>
 <button onclick="changeFontSize('reduzir')">Reduzir</button><script>
 function changeFontSize(action){
-const elements = ['h1', 'p'];
+const elements = ['h1', 'h2', 'h4', 'h3','h5','p'];
 elements.map(element=>{
 
 const selector = document.querySelector(element);
@@ -41,10 +41,11 @@ selector.style.fontSize = `${value}px`;
     <script src=”script.js”></script>
 
 </div>
+
 <h1>modo drak e modo light</h1>
 <div class="trilho">
     <div class="indicador"></div>
-    
+    <script src="main.js"></script>
 </div>
 </body>
 </section>
